@@ -1,0 +1,32 @@
+:root {
+  --body: #ebe0ffff;
+  --header: #dac7ffff;
+  --main: #c7adffff;
+  --footer: #ac8beeff;
+  --medium-purple: #916dd5ff;
+  --royal-purple: #7151a9ff;
+  --cyber-grape: #573d7fff;
+  --english-violet: #46325dff;
+  --nav: #3f3649ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Trebuchet MS;
+  padding: 1%;
+  background-color: var(--body);
+}
+
+header {
+  padding: 30px;
+  text-align: left;
+}
+
+nav {
+  display: flex;
+  text-decoration: underline;
+  flex-direction: column;
+}
