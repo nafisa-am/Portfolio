@@ -26,23 +26,20 @@ h1 {
   color: whitesmoke;
   background-color: var(--footer);
   text-align: left;
-  padding: 2%;
+  padding: 4%;
 }
 
 nav {
-  display: inline-block;
+  display: inline;
   float: right;
   font-size: 25px;
-  margin: 0%;
-  color: black;
-  flex-wrap: ;
+  margin: 2%;
+  color: white;
+  list-style: none;
 }
 
 h2 {
   text-align: center;
-}
-
-.h2 {
   font-size: 40px;
 }
 
@@ -125,13 +122,29 @@ p {
   width: 50%;
   padding: 5%;
 }
-.alt {
+.float-right {
   max-height: 200px;
   align-items: left;
 }
 
-.project1 {
+.section {
   box-sizing: content-box;
   width: 50%;
   padding: 5%;
+}
+
+.alt {
+  align-items: left;
+  image-orientation: left;
+}
+
+footer {
+  text-align: center;
+}
+
+.container {
+}
+
+.img {
+  align-content: right;
 }
