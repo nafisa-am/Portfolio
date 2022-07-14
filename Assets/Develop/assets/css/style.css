@@ -1,13 +1,9 @@
 :root {
-  --body: #ebe0ffff;
-  --header: #dac7ffff;
-  --main: #c7adffff;
-  --footer: #ac8beeff;
-  --medium-purple: #916dd5ff;
-  --royal-purple: #7151a9ff;
-  --cyber-grape: #573d7fff;
-  --english-violet: #46325dff;
-  --nav: #3f3649ff;
+  --main: #ffa69eff;
+  --body: #faf3ddff;
+  --header: #b8f2e6ff;
+  --nav: #aed9e0ff;
+  --footer: #5e6472ff;
 }
 
 * {
@@ -16,17 +12,126 @@
 
 body {
   font-family: Trebuchet MS;
+  background-color: var(--nav);
   padding: 1%;
-  background-color: var(--body);
 }
 
 header {
-  padding: 30px;
+  text-align: center;
+  font-size: larger;
+}
+
+h1 {
+  font-size: 60px;
+  color: whitesmoke;
+  background-color: var(--footer);
   text-align: left;
+  padding: 2%;
 }
 
 nav {
+  display: inline-block;
+  float: right;
+  font-size: 25px;
+  margin: 0%;
+  color: black;
+  flex-wrap: ;
+}
+
+h2 {
+  text-align: center;
+}
+
+.h2 {
+  font-size: 40px;
+}
+
+.project1 {
   display: flex;
-  text-decoration: underline;
+  flex-direction: row;
+  justify-content: center;
+  border-style: solid;
+  width: 90%;
+  height: 100vh;
+  margin: 5% auto;
+  border-style: double;
+  background-image: url ();
+}
+
+.project2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-style: solid;
+  width: 30%;
+  height: 50vh;
+  margin: 5% auto;
+  border-style: double;
+  align-items: center;
+}
+.project3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-style: solid;
+  width: 30%;
+  height: 50vh;
+  margin: 5% auto;
+  border-style: double;
+  align-items: center;
+}
+
+.project4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-style: solid;
+  width: 30%;
+  height: 50vh;
+  margin: 5% auto;
+  border-style: double;
+  align-items: center;
+}
+.project5 {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  border-style: solid;
+  width: 30%;
+  height: 50vh;
+  margin: 5% auto;
+  border-style: double;
+  align-items: center;
+}
+.project6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-style: solid;
+  width: 30%;
+  height: 50vh;
+  margin: 5% auto;
+  border-style: double;
+  align-items: center;
+}
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.about-me {
+  box-sizing: content-box;
+  width: 50%;
+  padding: 5%;
+}
+.alt {
+  max-height: 200px;
+  align-items: left;
+}
+
+.project1 {
+  box-sizing: content-box;
+  width: 50%;
+  padding: 5%;
 }
